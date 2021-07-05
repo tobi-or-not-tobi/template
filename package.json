@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo env $SITE_ID"
+    "test": "echo \"test ${BASE_URL}\" && exit 0"
   },
   "keywords": [],
   "author": "",
